@@ -1,0 +1,76 @@
+@font-face {
+    font-family:GE_SS_Two_Light;
+     src:url(../GE_SS_Two_Light.otf);
+ }
+ 
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: GE_SS_Two_Light;
+     
+ }
+
+
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+.button {
+  border: none;
+  color: white;
+  padding: 16px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  
+  margin: 250px 50px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 300px;
+  height: 200px;
+}
+.button2 {
+    text-align: center;
+  background-color: white; 
+  color: black; 
+  border: 2px solid darkblue;
+}
+
+.button2:hover {
+  background-color: darkblue;
+  color: white;
+}
+input {
+    text-align: center;
+    font-family: GE_SS_Two_Bold;
+
+}  
+    nav{
+        padding-left: 100px!important;
+        padding-right: 100px!important;
+        background: darkblue;
+        font-family: 'Poppins',       sans-serif;
+        
+    } 
+    nav a.navbar-brand{
+        color: white;
+        font-size: 30px!important;
+        font-weight: 500;
+    }
+    h1{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        direction: rtl;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        color: aliceblue;
+        font-weight: 600;
+    }
+    body{
+        text-align:center;
+        direction: rtl;
+    }

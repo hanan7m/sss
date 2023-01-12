@@ -1,0 +1,99 @@
+input[type=submit]{
+    border-radius:5px ;
+    border: thin;
+    width: 150px;
+    height: 45px;
+    background-color: #29265b;
+    color:#ffffff ;
+    font-size: 18px;
+    position: relative;
+    top: 30px;
+    left: -20px;
+  }
+  
+  input[type=submit]:hover{
+    background-color:#fff;
+    border: 1px solid;
+    border-color:#908f8e;
+    color: #29265b;
+  }
+  #editform{
+    position: relative;
+    left:9px;
+    top:150px;
+    text-align: center;
+  }
+
+  #container1{
+    position: relative;
+    left:710px;
+    top:180px;
+    height:150px;
+    width:500px;
+    background:#29265b;
+    border-radius: 4px;
+  }
+  #container2{
+    position: relative;
+    height:600px;
+    width:500px;
+    border: 1px solid;
+    border-radius: 4px;
+    border-color:#908f8e ;
+  }
+  input{
+    border: 1px solid;
+    border-radius: 4px;
+    border-color:#908f8e ;
+    height: 25px;
+    width: 200px;
+  }
+  select{
+    border: 1px solid;
+    border-radius: 4px;
+    border-color:#908f8e ;
+    height: 29px;
+    width: 200px;
+    position: relative;
+    left: -20px;
+  }
+  #title1{
+    position: relative;
+    left:200px;
+    top:50px;
+    color:#f5f2ec ;
+
+  }
+  textarea{
+    border: 1px solid;
+    border-radius: 4px;
+    border-color:#908f8e ;
+    height: 45px;
+    width: 200px;
+    position: relative;
+    left: -20px;
+  }
+  input[type=date]{
+    border: 1px solid;
+    border-radius: 4px;
+    border-color:#908f8e ;
+    height: 29px;
+    width: 200px;
+    position: relative;
+    left: -40px;
+  }
+
+  #l1{
+    position: relative;
+    left: 40px;
+  }
+
+  #l2{
+    position: relative;
+    left: 60px;
+  }
+  
+  #l3{
+    position: relative;
+    left: 60px;
+  }

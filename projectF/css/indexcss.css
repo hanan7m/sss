@@ -1,0 +1,44 @@
+
+body{
+    background-color: rgb(26, 12, 70);
+}
+.cont{
+    height: 500px;
+    width: 360px;
+    position: relative;
+    left:533px;
+    top:180px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 18px;
+    text-align: center;
+}
+
+#pageTitle{
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+.TitleP{
+    position: relative;
+    top: 50px;
+    font-size: 28px;
+}
+.theInput{
+    position: relative;
+    top: 70px;
+}
+.form-control{
+    width: 280px;
+    height: 46px;
+    border: 2px solid;
+    border-radius: 8px;
+    margin: 12px;
+    border-color: rgb(26, 12, 70);
+    font-size:18px ;
+}
+h4{
+   color: rgb(238, 9, 9);
+   font-size: 14px;
+}
+

@@ -1,0 +1,66 @@
+@font-face {
+    font-family:GE_SS_Two_Light;
+     src:url(../GE_SS_Two_Light.otf);
+ }
+ 
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: GE_SS_Two_Light;
+     
+ }
+body{
+    align-items: center;
+}
+
+.content{
+    position: relative;
+    left: 370px;
+    top:350px;  
+}
+table{
+    border-spacing: 20px;
+}
+td{
+    padding: 28px;
+    margin: 25px;
+    border-radius: 13px;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    font-size: 22px;
+    color: #29265b;
+    background-color:#fff ;
+    border: 2px solid;
+    border-color: #29265b;
+}
+
+td:hover{
+    transform: scale(1.07);
+    z-index: 1.5;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+#labeljob{
+    position: relative;
+    top: 15px;
+}
+#labelHR{
+    position: relative;
+    top: 15px;
+}
+#labelCOMPANY{
+    position: relative;
+    top: 15px;
+}
+#labelSTUDENTS{
+    position: relative;
+    top: 15px;
+}
+
+
+

@@ -1,0 +1,46 @@
+@font-face {
+    font-family:GE_SS_Two_Light;
+     src:url(../GE_SS_Two_Light.otf);
+ }
+ 
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: GE_SS_Two_Light;
+     
+ }
+
+.cont1{
+position: relative;
+left: 350px;
+top:120px;
+}
+
+ table{
+    border-spacing: 120px;
+}
+
+td{
+    padding: 28px;
+    margin: 25px;
+    border-radius: 13px;
+    height: 250px;
+    width:250px;
+    text-align: center;
+    font-size: 22px;
+    color: #29265b;
+    background-color:#fff ;
+    border: 2px solid;
+    border-color: #29265b;
+}
+
+td:hover{
+    transform: scale(1.07);
+    z-index: 1.5;
+}
+
+a{
+    text-decoration: none;
+    color: #29265b;
+}

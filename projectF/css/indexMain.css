@@ -1,0 +1,159 @@
+@font-face {
+    font-family:GE_SS_Two_Light;
+     src:url(../GE_SS_Two_Light.otf);
+ }
+ 
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: GE_SS_Two_Light;
+     
+ }
+ body{
+     background-color: #29265b;
+ }
+ 
+ header{
+     position: relative;
+     left: 0;
+     top: 0;
+     width: 1005;
+     height: 80px;
+ }
+ header h4{
+     position: absolute;
+     left: 10%;
+     bottom: 1rem;
+     font-size: 1.6rem;
+ }   
+ .intro{
+     position: fixed;
+     z-index: 1;
+     left: 0;
+     top:0;
+     width: 100%;
+     height: 100vh;
+     background-color: #29265b;
+     transition: 1s;
+ }
+ .logo-header{
+     position: absolute;
+     top: 40%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     color: #ffffff;
+ }
+ 
+ .logo{
+     position: relative;
+     left:-20px;
+     display:block;
+     bottom: -20%;
+     opacity: 0;
+     color: azure;
+ }
+ .logo.active{
+     bottom: 0;
+ opacity: 1;
+ transition: ease-in-out 0.5s;
+ }
+ .logo.fade{
+     bottom: 150px;
+     opacity: 0;
+     transition: ease-in-out 0.5s;
+ }
+ 
+ .logo1{
+     position: relative;
+     left:-20px;
+     color:#fff;
+     font-size: 18px;
+     font-weight: 90;
+ }
+ .cont{
+     height: 450px;
+     width: 260px;
+     position: relative;
+     left:620px;
+     top:180px;
+     background-color: rgb(255, 255, 255);
+     border-radius: 18px;
+     text-align: center;
+ }
+ input[type=submit]{
+     border-radius:5px ;
+     border: thin;
+     text-align: center;
+     width: 200px;
+     height: 35px;
+     margin: 10px;
+     background-color:#29265b;
+     font-size: 15px;
+     font-size: 15px;
+     position: relative;
+     left: -5px;
+     color: #fff;
+     top: 80px;
+   }
+ 
+   input[type=submit]:hover{
+     border: 2px solid;
+     border-color:#29265b;
+     color:#29265b;
+     background:#fff;
+   }
+    #forgotpassword{
+     font-size: 14px;
+     text-align: center;
+     position: relative;
+     left:1px;
+     top:80px;
+     margin-bottom: 25px;
+   
+    } 
+    .textTitle{
+     text-align: center;
+     position: relative;
+     top:40px;
+     left:-2px;
+     color:#29265b;
+    font-size: 18px;
+   }
+    .textTitle2{
+     text-align: center;
+     position: relative;
+     left:-5px;
+     top:40px;
+     color:#29265b;
+    }
+    #newreg{
+     position: relative;
+     left: -20px;
+     color:#29265b;
+     font-size: 12px;
+    }
+    #errormsg{
+     position: relative;
+     left: 100px;
+     color:#29265b;
+     font-size: 17px;
+    }
+    .form-control{
+     position: relative;
+     left: -2px;
+     top:70px;
+     width: 200px;
+     height: 35px;
+     margin: 10px;
+     border-radius: 5px;
+     border: 0.5px solid;
+     text-align: center;
+    }
+   
+ .notreg{
+     position: relative;
+     font-size: 14px;
+     left: -3px;
+     top:100px;
+ }
